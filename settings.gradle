@@ -1,0 +1,5 @@
+rootProject.name = 'cherpe'
+
+include 'common'
+include 'domain'
+include 'api'
