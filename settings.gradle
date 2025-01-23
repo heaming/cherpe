@@ -1,5 +1,11 @@
 rootProject.name = 'cherpe'
 
 include 'common'
+include 'adapter'
+include 'adapter:mysql'
+include 'adapter:kafka'
 include 'domain'
 include 'api'
+include 'usecase'
+include 'usecase:core'
+include 'usecase:product-usecase'
